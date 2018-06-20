@@ -49,7 +49,58 @@ hr {
 	font-size: 500px;
 }
 
-#section2 {
+.sections {
 	width: 400px;
 	border: 0.5px solid #666666;
+}
+.sqs-block {
+	padding-right: 17px;
+	padding-left: 17px;
+	box-shadow: inset 0 0 0 1px rgba(128, 128, 128, 0);
+	transition: box-shadow .2s ease-in-out;
+}
+
+.sqs-block-container {
+	padding-top: 15px;
+	text-align: center;
+}
+
+.sm-button-outline {
+	color: rgb(66, 134, 244);
+	border-width: 2px;
+	border-style: solid;
+	background-color: transparent;
+	transition: 0.1s background-color linear, 0.1s color linear;
+	transition-property: background-color, color;
+	transition-duration: 0.1s, 0.1s;
+	transition-timing-function: linear, linear;
+	transition-delay: initial, initial;
+}
+
+.sm-block-button-element {
+	cursor: pointer;
+	text-align: center;
+	width: auto;
+	height: auto;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	border-color: #609dff;
+	padding: 13px 26px;
+}
+
+div {
+	display: block;
+	clear: none;
+}
+
+/*need to fix*/
+.block-text {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.html-block {
+	padding-top: 20px;
+	padding-bottom: 10px;
 }
