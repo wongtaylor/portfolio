@@ -1,0 +1,48 @@
+body {
+	padding-top: 70px;
+	font-family: Source San Pro;
+	font-size: 40px;
+	color: #ffffff;
+}
+
+html {
+	height: 100%;
+}
+
+#title { 
+	text-align: center;
+	/*font-family: Source Sans Pro;*/
+	text-transform: uppercase;
+	color: #3498db;
+	letter-spacing: 2px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.company {
+	color: #2c3e50;
+	/*font-family: Source Sans Pro;*/
+}
+
+.date {
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+#jobs {
+	border-color: #bdc3c7;
+	border-width: 20px;
+	border-style: solid;
+	margin: 20px auto;
+	width: 60%;
+	padding: 20px;
+}
+
+span {
+	padding-top: 200px;
+}
+
+.job {
+	padding: 10px 20px;
+}
