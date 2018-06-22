@@ -1,5 +1,6 @@
 body {
 	padding-top: 70px;
+	padding-bottom: 70px;
 	font-family: Source San Pro;
 	font-size: 40px;
 	color: #ffffff;
@@ -9,18 +10,11 @@ html {
 	height: 100%;
 }
 
-#top-title {
-	margin-top: 0;
-}
-
 .title { 
 	text-align: center;
 	text-transform: uppercase;
 	color: #3498db;
 	letter-spacing: 2px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-top: 35px;
 }
 
 .company {
@@ -35,9 +29,6 @@ html {
 }
 
 .block-body {
-	border-color: #bdc3c7;
-	border-width: 20px;
-	border-style: solid;
 	text-align: center;
 	margin: 0 auto;
 	width: 60%;
@@ -51,4 +42,12 @@ html {
 
 .block-article {
 	text-align: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.section-body {
+	padding-bottom: 20px;
 }
