@@ -49,6 +49,20 @@ hr {
 	font-size: 500px;
 }
 
+/* Section formatting */
+.section-header {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.sectionName {
+	margin: 0;
+	font-weight: 400;
+	font-size: 23px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
 .sections {
 	width: 400px;
 	border: 0.5px solid #666666;
