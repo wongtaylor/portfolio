@@ -11,7 +11,7 @@ html {
 }
 
 .title { 
-	text-align: center;
+	text-align: left;
 	text-transform: uppercase;
 	color: #3498db;
 	letter-spacing: 2px;
