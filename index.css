@@ -53,6 +53,12 @@ hr {
 	width: 400px;
 	border: 0.5px solid #666666;
 }
+
+.tagline {
+	font-size: 15px;
+	text-align: center;
+}
+
 .sqs-block {
 	padding-right: 17px;
 	padding-left: 17px;
