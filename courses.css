@@ -1,0 +1,22 @@
+body {
+	padding-top: 70px;
+}
+
+h5 {
+	padding-bottom: 8px;
+}
+
+.title { 
+	text-align: left;
+	text-transform: uppercase;
+	color: #3498db;
+	letter-spacing: 2px;
+}
+
+.section-content {
+	padding-bottom: 20px;
+}
+
+em {
+	color: #3498db;
+}
