@@ -36,25 +36,27 @@
 	</nav>
 	<div class="container">
 		<span>
-			<h1>Get in Touch</h1>
-			<h4>Want to collaborate on a project? Talk about future opportunities? Simply fill out this form and I will get back to you soon. I look forward to chatting with you!</h4>
-			<form id="contact-form" method="post" action="https://formspree.io/wong.taylor97@gmail.com" role="form">
+			<div class="jumbotron">
+				<h1>Get in Touch</h1>
+				<h4>Want to collaborate on a project? Talk about future opportunities? Simply fill out this form and I will get back to you soon. I look forward to chatting with you!</h4>
+			</div>
+			<form id="contact-form" method="post" action="https://formspree.io/wong.taylor97@gmail.com">
 				<!-- displays success or error message after sending form -->
 				<div class="messages"></div>   
 
 				<div class="form-group">
 					<label for="form_name">Name</label>
-					<input type="text" class="form-control" id="form_name" name="name" required="required" placeholder="Please enter your name" data-error="Name is required">
+					<input type="text" class="form-control" id="form_name" name="Name" required="required" placeholder="Please enter your name" data-error="Name is required">
 					<div class="help-block with-errors"></div>
 				</div>
 			 	<div class="form-group">
 			    		<label for="form_email">Email address</label>
-			    		<input name="email" type="email" class="form-control" id="form_email" placeholder="JohnDoe@gmail.com" required="required" data-error="Valid email is required">
+			    		<input name="Email" type="email" class="form-control" id="form_email" placeholder="JohnDoe@gmail.com" required="required" data-error="Valid email is required">
 			    		<div class="help-block with-errors"></div>
 			  	</div>
 			  	<div class="form-group">
 			    		<label for="form_message">Message</label>
-			    		<textarea class="form-control" id="form_message" name="message" rows="3" required="required" placeholder="Please add a message" data-error="Please leave a message!"></textarea>
+			    		<textarea class="form-control" id="form_message" name="Message" rows="3" required="required" placeholder="Please add a message" data-error="Please leave a message!"></textarea>
 			    		<div class="help-block with-errors"></div>
 			  	</div>
 				<input type="submit" class="btn btn-primary" value="Send Message">
