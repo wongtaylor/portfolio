@@ -50,9 +50,10 @@ hr {
 }
 
 /* Portrait formatting */
-.portrait {
+.image-resize {
     height: 200px;
-    width: 50%;
+    object-fit: cover;
+    object-position: center center;
 }
 
 /* Section formatting */
