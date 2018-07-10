@@ -51,8 +51,8 @@ hr {
 
 /* Portrait formatting */
 .portrait {
-    height: 80px;
-    width: 30px;
+    height: 200px;
+    width: 50%;
 }
 
 /* Section formatting */
