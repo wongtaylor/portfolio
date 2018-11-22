@@ -10,9 +10,9 @@ html {
 }
 
 #content {
-	background: url(https://images.unsplash.com/photo-1487505983481-9aa2d9f9901a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b433a7b42100590c43c73903234a23a9&auto=format&fit=crop&w=1050&q=80);
-	background-size: cover;
-	background-position: center;
+	//background: url(https://images.unsplash.com/photo-1487505983481-9aa2d9f9901a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b433a7b42100590c43c73903234a23a9&auto=format&fit=crop&w=1050&q=80);
+	//background-size: cover;
+	//background-position: center;
 	text-align: center;
 	padding-top: 20%;
 	padding-bottom: 15%;
@@ -91,6 +91,9 @@ hr {
 }
 
 .sqs-block {
+	position: relative;
+	height: auto;
+	outline: none;
 	padding-right: 17px;
 	padding-left: 17px;
 	box-shadow: inset 0 0 0 1px rgba(128, 128, 128, 0);
