@@ -131,6 +131,13 @@ hr {
 	padding: 13px 26px;
 }
 
+.image-block-wrapper {
+	line-height: 0;
+	text-align: center;
+	position: relative;
+	overflow:  hidden;
+}
+
 div {
 	display: block;
 	clear: none;
