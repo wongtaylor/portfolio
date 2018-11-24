@@ -12,3 +12,8 @@ html {
 label {
 	font-size: 18px;	
 }
+
+#container-padding {
+	padding-left: 10%;
+	padding-right: 10%;
+}
