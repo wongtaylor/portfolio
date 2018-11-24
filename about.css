@@ -19,7 +19,7 @@ body {
 	color: white;
 }
 
-.container {
+#container-padding {
 	padding-left: 10%;
 	padding-right: 10%;
 }
