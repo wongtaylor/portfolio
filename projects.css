@@ -16,3 +16,8 @@ body {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
+
+#container-padding {
+	padding-left: 10%;
+	padding-right: 10%;
+}
