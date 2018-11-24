@@ -22,6 +22,7 @@ body {
 	padding-right: 10%;
 }
 
+/*
 .photo {
 	display: table;
 }
@@ -35,4 +36,22 @@ body {
     display: block;
     height: auto;
     width: 100%;
+}
+*/
+
+.frame {
+    height: 25px;      /* equals max image height */
+    width: 160px;
+    white-space: nowrap; 
+    text-align: center; margin: 1em 0;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.img {
+    vertical-align: middle;
 }
