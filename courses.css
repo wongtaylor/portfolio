@@ -20,3 +20,8 @@ h5 {
 em {
 	color: #3498db;
 }
+
+#container-padding {
+	padding-left: 10%;
+	padding-right: 10%;
+}
