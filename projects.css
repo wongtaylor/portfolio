@@ -22,8 +22,6 @@ body {
 	padding-right: 10%;
 }
 
-div.rotate {
+.rotate {
 	transform: rotate(90);
-	background: url("/portfolio/images/sim-2.jpeg");
-	background-position: center;
 }
