@@ -22,6 +22,6 @@ body {
 	padding-right: 10%;
 }
 
-.rotate {
+#rotate {
 	transform: rotate(90);
 }
